@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  content: MyText
+  bimg1: MyString
+  bimg2: MyString
+  bimg3: MyString
+
+two:
+  content: MyText
+  bimg1: MyString
+  bimg2: MyString
+  bimg3: MyString

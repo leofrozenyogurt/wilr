@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= coderay(@blog.content) %>
+</p>
+
+<p>
+  <b>Bimg1:</b>
+  <%= @blog.bimg1 %>
+</p>
+
+<p>
+  <b>Bimg2:</b>
+  <%= @blog.bimg2 %>
+</p>
+
+<p>
+  <b>Bimg3:</b>
+  <%= @blog.bimg3 %>
+</p>
+
+
+<%= link_to 'Edit', edit_blog_path(@blog) %> |
+<%= link_to 'Back', blogs_path %>
